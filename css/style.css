@@ -32,6 +32,10 @@ li {
     display: none;
 }
 
+.store-banner {
+    width: 155px;
+}
+
 
 /*--------------------------------
  レイアウト
@@ -157,6 +161,7 @@ li {
     color: white;
     font-size: 48px;
     font-weight: bold;
+    white-space: nowrap
 }
 
 
@@ -315,6 +320,11 @@ li {
     text-align: center;
 }
 
+.article-subtitle {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .article-img {
     margin-bottom: 20px;
 }
@@ -322,6 +332,7 @@ li {
 .article-body {
     max-width: 720px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .article-info-title {
@@ -338,7 +349,6 @@ li {
 
 .home-link {
     text-align: center;
-    ;
 }
 
 
