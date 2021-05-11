@@ -190,6 +190,7 @@ li {
 
 .works-img img {
     border: 1px solid #e6e6e6;
+    border-radius: 30px;
 }
 
 .works-name {
@@ -213,15 +214,14 @@ li {
     /* １つしかないとき */
     justify-content: center;
     /* ２つ以上あるとき */
-    /*   justify-content: space-between;
-  margin-bottom: -50px; */
+    /* margin-bottom: -40px; */
 }
 
 .news-item {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 48%;
+    width: 38%;
     margin-bottom: 50px;
 }
 
@@ -397,8 +397,9 @@ li {
         margin: 0;
         padding: 0;
         color: white;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: bold;
+        white-space: nowrap
     }
     /* Works */
     .works-name {
@@ -417,14 +418,14 @@ li {
     }
     /* news */
     .news-list {
-        display: block;
         /* １つしかないとき */
         justify-content: center;
         /* ２つ以上あるとき */
         /*   margin-bottom: 0;*/
     }
     .news-item {
-        width: 100%;
+        flex: 0 0 48%;
+        margin-right: 0;
         margin-bottom: 35px;
     }
     .news-item:last-child {
